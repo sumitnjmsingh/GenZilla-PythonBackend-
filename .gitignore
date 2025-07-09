@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Logs and debugging
+*.log
+*.bak
+*.swp
+
+# VS Code Python extension
+.python-version
+
+# Static/generated image folder
+image/
