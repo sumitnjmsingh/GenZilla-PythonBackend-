@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import uvicorn
 from fastapi import FastAPI
-from app.api import summarization, translation, text_to_image
+from app.api import summarization, translation, text_to_image, question_answering
 
 app = FastAPI(title="GenAI Services API")
 
@@ -21,6 +21,7 @@ app.add_middleware(
 app.include_router(summarization.router, prefix="/api")
 app.include_router(translation.router, prefix="/api")
 app.include_router(text_to_image.router, prefix="/api")
+app.include_router(question_answering.router, prefix="/api")
 
 @app.get("/")
 def read_root():
