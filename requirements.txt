@@ -8,3 +8,4 @@ langchain-huggingface
 rag_pipeline
 transformers
 huggingface_hub
+cloudinary
