@@ -9,3 +9,4 @@ rag_pipeline
 transformers
 huggingface_hub
 cloudinary
+google-generativeai
